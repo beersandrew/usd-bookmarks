@@ -11,3 +11,4 @@
 
 - [USD Asset Working Group Guidelines](https://github.com/usd-wg/assets/blob/main/docs/asset-structure-guidelines.md)- [NVIDIA - Best Practices for Asset Structure - 2023 - Video](https://www.youtube.com/watch?v=YgVTS5oIJqM)
 - [NVIDIA - Principles of Asset Structure](https://docs.omniverse.nvidia.com/usd/latest/learn-openusd/independent/asset-structure-principles.html)
+- [Weta - Intents: Building USD Workflows for Wētā FX and Beyond](https://www.nvidia.com/en-us/on-demand/session/siggraph2023-sigg23-17/)
