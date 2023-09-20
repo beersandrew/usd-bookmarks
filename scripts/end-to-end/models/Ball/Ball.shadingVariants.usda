@@ -1,0 +1,317 @@
+#usda 1.0
+(
+    defaultPrim = "Ball"
+)
+
+over "Ball" (
+    variants = {
+        string shadingVariant = "Cue"
+    }
+    prepend variantSets = "shadingVariant"
+)
+{
+    over "mesh"
+    {
+    }
+
+    over "Looks"
+    {
+        over "BallMaterial"
+        {
+            over "BallTexture"
+            {
+            }
+        }
+    }
+    variantSet "shadingVariant" = {
+        "Ball_1" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball1.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(1, 0.8504222, 0.024132328)]
+            }
+
+        }
+        "Ball_10" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball10.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.017020773, 0.044497315, 0.36313203)]
+            }
+
+        }
+        "Ball_11" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball11.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.9479591, 0.032956332, 0.013436373)]
+            }
+
+        }
+        "Ball_12" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball12.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.047366142, 0.016783176, 0.13320851)]
+            }
+
+        }
+        "Ball_13" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball13.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.95652735, 0.21572702, 0.024132328)]
+            }
+
+        }
+        "Ball_14" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball14.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.0013732007, 0.049475294, 0.042901784)]
+            }
+
+        }
+        "Ball_15" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball15.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.333438, 0.001976398, 0.005506571)]
+            }
+
+        }
+        "Ball_2" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball2.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.017020773, 0.044497315, 0.36313203)]
+            }
+
+        }
+        "Ball_3" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball3.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.9479591, 0.032956332, 0.013436373)]
+            }
+
+        }
+        "Ball_4" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball4.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.047366142, 0.016783176, 0.13320851)]
+            }
+
+        }
+        "Ball_5" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball5.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.95652735, 0.21572702, 0.024132328)]
+            }
+
+        }
+        "Ball_6" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball6.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.0013732007, 0.049475294, 0.042901784)]
+            }
+
+        }
+        "Ball_7" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball7.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.333438, 0.001976398, 0.005506571)]
+            }
+
+        }
+        "Ball_8" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball8.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.009772184, 0.009081141, 0.0077815102)]
+            }
+
+        }
+        "Ball_9" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ball9.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(1, 0.8504222, 0.024132328)]
+            }
+
+        }
+        "Cue" {
+            over "Looks"
+            {
+                over "BallMaterial"
+                {
+                    over "BallTexture"
+                    {
+                        string inputs:filename = "/Users/andrewbeers/git/USD/extras/usd/tutorials/endToEnd/models/Ball/tex/ballCue.tex"
+                    }
+                }
+            }
+
+            over "mesh"
+            {
+                color3f[] primvars:displayColor = [(0.9912211, 0.9824844, 0.74357563)]
+            }
+
+        }
+    }
+}
+

@@ -5,6 +5,7 @@
 - [Remedy Book of USD](https://remedy-entertainment.github.io/USDBook/)
 - [Robin-Yann Storm - What is USD? - Video](https://www.youtube.com/watch?v=JixC53cQn5U)
 - [NVIDIA - What is USD - Video](https://www.youtube.com/watch?v=GOdyx-oSs2M)
+- [Pixar - End to End - Tutorial](https://openusd.org/release/tut_end_to_end.html#)
 
 
 ## Asset Structure
